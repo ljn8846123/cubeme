@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>큐브미</title>
+    <!-- 파비콘 -->
+    <link rel="shotcut icon" href="img/favicon01.png" type="image">
+     <!-- swiper css cdn연결 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <!-- 외부css연결 -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- 제리쿼리 라이브러리 -->
+    <script src="js/jquery-3.6.0.js"></script>    
+    <!-- swiper JS cdn연결 -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- 외부 JS파일 연결 -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="box">
+                <!-- 로고 -->
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="로고">
+                    </a>
+                </div>
+                <!-- 네비케이션(2차원 메뉴) -->
+                <nav>
+                    <ul>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">모두 상품</a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">베스트</a></li>
+                                <li><a href="#">콜라겐</a></li>
+                                <li><a href="#">다이어트</a></li>
+                                <li><a href="#">이너뷰티</a></li>
+                                <li><a href="#">헬스</a></li>
+                                <li><a href="#">키즈</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">다이어트WHITH챌린지</a>
+                        </li>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">이벤트</a>
+                        </li>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">매거진</a>
+                            <ul class="sub">
+                                <li><a href="#">미용매거진</a></li>
+                                <li><a href="#">운동매거진</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">브랜드 소개</a>
+                        </li>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">매장안내</a>
+                        </li>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">고객센터</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- 로그인,회원가입 -->
+                <div class="top_menu">
+                    <ul>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 서브메뉴 배경은 .box의 형제객체로 코딩함,
+            css에서는 부모나 부모의 형제를 제어하는 선택자가
+            없어서 제이퀘리로 제어해야 함 -->
+            <div class="sub_bg">
+
+            </div>
+        </header>
+
+        <section class="s1">
+            <!-- 메인 비주얼의 이미지 영역(3개) -->
+            <div class="photo">
+                <ul>
+                    <li class="main1"></li>
+                    <li class="main2"></li>
+                    <li class="main3"></li>
+                </ul>
+            </div>
+            <!-- 화면 왼쪽의 세로 막대 -->
+            <div class="bar">
+                <!-- <h3>CUBEME</h3> -->
+                <img src="img/left_bar.png" alt="bar">
+            </div>
+            <!-- 설명과 번호와 play,pause.버튼 영역 -->
+            <div class="des_box">
+                <div class="des">
+                    <ul>
+                        <li>
+                            <h4>기간2021.09.13~11.30</h4>
+                            <h1>아모레퍼시픽 신한체크카드</h1>
+                            <p>1만원 결제 시<br>1만원 뷰티포인트 적립</p>
+                            <a href="#">더보기</a>
+                        </li>
+                        <li>
+                            <h4>친구 추천 이벤트</h4>
+                            <h1>나와 내친구 모두 포인트 적립</h1>
+                            <p>좋은 건 널리 알려요!<br>나와 내 친구 모두 5000포인트씩 적립!</p>
+                            <a href="#">더보기</a>
+                        </li>
+                        <li>
+                            <h4>ONLY CUBEMEMALL BENEFIT</h4>
+                            <h1>회원 가입하고 혜택받기</h1>
+                            <p>회원 가입하고<br>5000원 상당의 혜택 받기</p>
+                            <a href="#">더보기</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="number">
+                    <div class="num">
+                        <ul>
+                            <li><a href="#" class="active">01</a></li>
+                            <li><a href="#">02</a></li>
+                            <li><a href="#">03</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn">
+                        <hr> <!--짧은 선-->
+                        <a href="#">
+                            <!-- <img src="img/triangle.png" alt="활살표"> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- scroll -->
+            <div class="scroll">
+                <p>SCROLL</p>
+                <div class="scroll_btn">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </section>
+        <section class="s2">
+            <div class="box">
+                <p class="line_1"><span>큐브미몰</span>에서만</p>
+                <p class="line_2">제공되는<span><strong>혜택</strong></span></p>
+                <div class="bennefit">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="bennefit_img">
+                                    <img src="img/ic01.png" alt="icon01">
+                                </div>
+                                <p>회원가입시<strong>총 5,000원</strong>상당<br>혜택 및 <strong>100원쿠폰</strong>증정</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="bennefit_img">
+                                    <img src="img/ic02.png" alt="icon02">
+                                </div>
+                                <p>포토리뷰작성시<br><strong>2,000P</strong>적립</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="bennefit_img">
+                                    <img src="img/ic03.png" alt="icon03">
+                                </div>
+                                <p>친구 추천시 나와 친구<br><strong>5,000P</strong>지급</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- <div class="more_btn">
+                        <a href="#">더 보기</a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <section class="s3">
+            <div class="area">
+                <div class="product1">
+                    <h1>
+                        진행중이벤트
+                    </h1>
+                    <div class="product_title">
+                        <div class="product_des">
+                            <ul>
+                                <li class="d1">
+                                    <h3><span>01.</span>0원다이어트 이벤트</h3>
+                                    <p>다이어트 코칭 서비스가<br>우리 회사 복지 서비스로 온다면...</p>
+                                    <a href="#">자세히 보기</a>
+                                </li>
+                                <li  class="d2">
+                                    <h3><span>02.</span>수능기원 특별 이벤트</h3>
+                                    <p>5만원 이상 구매시<br>콜라겐 본품+각인서비스/p>
+                                    <a href="#">자세히 보기</a>
+                                </li>
+                                <li  class="d3">
+                                    <h3><span>03.</span>다이어트&챌린지 모집</h3>
+                                    <p>지금 신청하면 30%할인<br>프로틴큐브+쉐이커+페이백35,000P</p>
+                                    <a href="#">자세히 보기</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="product_list">
+                            <ul>
+                                <li class="t1 active" class="t1"><a href="#">0원다이어트 이벤트</a>
+                                </li>
+                                <li class="t2"><a href="#">수능기원 특별 이벤트</a>
+                                </li>
+                                <li class="t3"><a href="#">다이어트&챌린지 모집</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product2">
+                    <ul>
+                        <li class="c1"><img src="img/art_img.jpg" alt="0원다이어트"></li>
+                        <li class="c2"><img src="img/art_img2.jpg" alt="수능기원"></li>
+                        <li class="c3"><img src="img/art_img3.jpg" alt="다이어트&챌린지"></li>
+                    </ul>
+                </div>
+            </div> <!--area-->
+        </section>
+        <section class="s4">
+            <div class="area">
+                <div class="new_bg">
+                </div>
+                <div class="new_des">
+                    <div class="new_title">
+                        <h1>핫한 상품</h1>
+                        <hr>
+                    </div>
+                    <p>이번 달에 인기 많은 베스트 큐브를  만나보세요.</p>
+                    <a href="#"><span>▶</span>&nbsp모두보기</a>
+                </div>
+                <div class="new_list">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                                <!-- 이미지 -->
+                                <div class="swiper-slide">
+                                    <div class="new_img">
+                                        <img src="img/product01.png" alt="제품1">
+                                        <div class="new_text">
+                                            <h3>콜라겐큐브 퍼스트 4주</h3>
+                                            <p class="price">５0,000원</p>
+                                            <p class="sale_price"><span>20%</span>&nbsp 40,000원</p>
+                                            <p class="explain">피부 탄력/보습을 위한 기능성의 힘</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <!-- 이미지 -->
+                                    <div class="new_img">
+                                        <img src="img/product02.png" alt="제품2">
+                                        <div class="new_text">
+                                            <h3>슬림 큐브 플러스 4주</h3>
+                                            <p class="price">78,000원</p>
+                                            <p class="sale_price"><span>20%</span>&nbsp62,400원</p>
+                                            <p class="explain">다이어트 멀티 기능성 서플리먼트</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <!-- 이미지 -->
+                                    <div class="new_img">
+                                        <img src="img/product03.png" alt="제품3">
+                                        <div class="new_text">
+                                            <h3>콜라겐 큐브 5주</h3>
+                                            <p class="price">27,000원</p>
+                                            <p class="sale_price"><span>20%</span>&nbsp21,600원</p>
+                                            <p class="explain">새콤달콤 콜라겐 오늘도 칭찬해</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <!-- 이미지 -->
+                                    <div class="new_img">
+                                        <img src="img/product04.png" alt="제품4">
+                                        <div class="new_text">
+                                            <h3>콜라겐큐브 플러스 4주</h3>
+                                            <p class="price">５0,000원</p>
+                                            <p class="sale_price"><span>20%</span>&nbsp 40,000원</p>
+                                            <p class="explain">언제 어디서나 한 포로 충분해요.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s5">
+            <div class="box">
+                <h1>STORIES FROM THE BEATY</h1>
+                <div class="test">
+                    <div class="test_img">
+                        <img src="img/girl_orange.jpg" alt="모델">
+                        <h1>MAGAZINE</h1>
+                    </div>
+                    <div class="test_des">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ta70vt8isiw/autoplay=1&mute=1" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                            </iframe>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer_box">
+                <div class="box">
+                    <div class="footer_list">
+                        <ul>
+                            <li>
+                                <a href="#">공지사항</a>
+                            </li>
+                            <li>
+                                <a href="#">1:1문의</a>
+                            </li>
+                            <li>
+                                <a href="#">자주묻는 질문</a>
+                            </li>
+                            <li>
+                                <a href="#">개인정보처리방침</a>
+                            </li>
+                            <li>
+                                <a href="#">이용약관</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sns">
+                        <a href="#"><img src="img/sns01.png" alt="sns1"></a>
+                        <a href="#"><img src="img/sns02.png" alt="sns2"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_box">
+                <div class="box">
+                     <div class="footer_left">
+                         <div class="foot_logo">
+                             <img src="img/logo.png" alt="푸터 로고">
+                         </div>
+                        <address>
+                            (주)아모레퍼시픽 대표이사 : 안세홍  사업자등록번호 : 106-86-43373 사업자정보 확인<br>
+                            서울특별시 용산구 한강대로 100  통신판매업신고번호 : 2017-서울용산-1308호 건강<br>
+                            기능식품판매업 영업신고증 제8호<br>
+                            전자메일주소 : cubeme_mall@cubeme.co.kr <br>
+                            호스팅제공자 : (주)아모레퍼시픽
+                        </address>
+                        <p>Copyrightⓒcubeme_mall ALL rights reserved</p>
+                     </div>
+                     <div class="footer_right">
+                         <ul>
+                             <li>
+                                <p>쇼핑문의</p>
+                                <h1>080-033-5454</h1>
+                            </li>
+                            <li>
+                                <p>제품문의</p>
+                                <h1>080-023-5454</h1>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
